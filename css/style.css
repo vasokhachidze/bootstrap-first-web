@@ -7,12 +7,12 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat", sans-serif;
 }
-
+.none{
+    display: none;
+}
 /* ................. */
 /*start header */
 /* ................... */
-
-
 #header{
     width: 100%;
     height: 80px;
@@ -29,7 +29,6 @@ h1,h2,h3,h4,h5,h6{
     width: 160px;
     height: 80px;
     margin: 0;
-
 }
 .logo img{
     width: 100%;
@@ -37,19 +36,16 @@ h1,h2,h3,h4,h5,h6{
 .burger{
     visibility: hidden;
     margin-right: 0;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 .navbar{
     width: 700px;
     height: 80px;
-    margin: 0;
-   
+    margin: 0;   
 }
 .firstUl{
     height: 60px;
-    right: 0;
-    
+    right: 0;   
 }
 .navbar a, #deepnav a{
     text-decoration: none;
@@ -67,11 +63,9 @@ h1,h2,h3,h4,h5,h6{
 #active{
     color: #007bff;
 }
-
 .navbar span{
     margin-right: 5px;
 }
-
 .secondUl{
     width: 200px;
     display: block;
@@ -79,15 +73,13 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     background-color: white;
     text-align: left;
-    visibility: hidden;
-    
+    visibility: hidden;    
 }
 .dropdown{
     transition: 0.5s;
 }
 .secondUl li{
-    margin:10px 0 10px -32px;
-    
+    margin:10px 0 10px -32px;    
 }
 .secondUl span{
     margin-right: 10px;
@@ -121,8 +113,7 @@ h1,h2,h3,h4,h5,h6{
     visibility: hidden;
     }
     .burger{
-        visibility: visible;
-        
+        visibility: visible;    
     }
   }
   #deepnav {
@@ -141,9 +132,7 @@ h1,h2,h3,h4,h5,h6{
       list-style: none;
       background-color: white;
       overflow: hidden;
-      overflow-y: auto;
-      
-      
+      overflow-y: auto;    
   }
   #deepnav li  {
    margin-top: 10px;
@@ -173,8 +162,7 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     top: 37px;
     left: 175px;
-    visibility: hidden;
-    
+    visibility: hidden;    
 }
 .deepdropdown:hover~.mobile-deep-dropdown{
   visibility: visible;
@@ -185,9 +173,6 @@ h1,h2,h3,h4,h5,h6{
 /* ----------------------------------------------------
 end header
 ---------------------------------------------------- */
-  
-
-
 /* start hero section big blue background */
 .firstSection{
     width: 100%;
@@ -203,8 +188,7 @@ end header
 }
 .left{
      min-width: 250px;
-    text-align: left;
-   
+    text-align: left; 
 }
 .left h2{
     font-family: "Montserrat", sans-serif;
@@ -229,14 +213,11 @@ end header
     border-radius: 50px;
     transition: 0.7s;
     margin: 0 20px 20px 0;
-
 }
 .left a:hover{
     background-color: #007bff; 
-    border: 2px solid #007bff;
-    
+    border: 2px solid #007bff;   
 }
-
 .right img{
 width: 100%;
 min-width: 250px;
@@ -256,30 +237,18 @@ min-width: 250px;
     }
     .firstSection{
         height: 850px;
-    }
-    
+    } 
   } 
 /* -----------------------------------------------
-end hero section big blue backgroun
+end hero section big blue background
 ----------------------------------------------- */
-
-
-/* start secondSection */
-
-
-
-
-
-
-
-
+/* start about*/
 .about-us p{
     max-width: 567px;
     min-width: 250px;
     padding-bottom: 60px;
     color: #556877;
     margin-top: 20px;
- 
 }
 .aboutparagraph{
     text-align: left;
@@ -303,8 +272,7 @@ end hero section big blue backgroun
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  
+  transform: translate(-50%,-50%); 
 }
 .icon-box:hover{
     background-color: #007bff;
@@ -320,8 +288,6 @@ end hero section big blue backgroun
 }
 .abouttwoline img,.aboutthreeline img{
     width: 100%;
-    
-
 }
 .abouttwoline p,.aboutthreeline p{
     text-align: left;
@@ -335,34 +301,28 @@ end hero section big blue backgroun
     margin: 20px 0;
     text-align: left;
 }
-/* hhhhhhh */
 .aboutthreeline{
     text-align: left;
     min-width: 250px;
     margin-top: 40px;
     padding-bottom: 75px;
 }
-.my{
-    background-color: aqua;
-}
-.my2{
-    background-color: gray;
-}
+/* ------------------------------------- 
+         !!!end about!!!
+ --------------------------------------- */
+ /* start services */
 .services{
     background-color: #ecf5ff;
-    padding-bottom: 100px;
-    
+    padding-bottom: 100px;   
 }
 .servicehead{
     min-width: 250px;
-    padding-top: 75px;
-    
+    padding-top: 75px;    
 }
 .servicehead h2{
     font-size: 36px;
     color: #283d50;
     font-weight: 500;
-
 }
 .servicehead p{
     max-width: 600px;
@@ -389,8 +349,7 @@ end hero section big blue backgroun
     height: 60px;
     float: left;
     margin-top: 30px;
-    margin-right: 20px;
-    
+    margin-right: 20px;    
 }
 .services-box h4{
     font-weight: bold;
@@ -404,10 +363,10 @@ end hero section big blue backgroun
     font-size: 15px;
     color: #556877;
 }
-
-
-
-
+/* --------------------------------------
+            !!!end services!!!
+------------------------------------------ */
+/* start why-us */
 .why-us{
     min-width: 250px;
     background-color: #004a99;
@@ -459,27 +418,20 @@ end hero section big blue backgroun
     }
   }
   .projectsinfo{
-      margin-top: 50px;
-      
+      margin-top: 50px;    
   }
   .projectsinfo h2{
       font-weight: bold;
       margin-top: 30px;
   }
 /* =================================================
-:end
+             !!!end why-us!!!
 ================================================= */
-
-
   /* start our-potfolio */
-
-
-
-
 .our-portfolio-head  {
     display: inline-block;
     margin-top: 60px;
-    
+    padding-bottom: 50px;   
 }
 .our-portfolio-head a{
     text-decoration: none;
@@ -489,8 +441,7 @@ end hero section big blue backgroun
     margin:20px 10px;
     color: #007bff;
     font-size: 15px;
-    transition: 0.5s;
-    
+    transition: 0.5s;   
 }
 .our-portfolio-head h2{
     margin-bottom: 20px;
@@ -498,36 +449,64 @@ end hero section big blue backgroun
 .our-portfolio-head a:hover{
     background-color:#007bff ;
     color:#ecf5ff;
-
 }
-.our-portfolio-photos{
-    position: relative;
-}
-.our-portfolio-photos img{
+.portfolio-wrap img{ 
     width: 100%;
-}
-.abs{
-    position:relative;
+    border-radius: 10px;
+    /* margin-top: 30px; */
     
-    
-    left: 0;
-    
+ }
+ .portfolio-wrap a{
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     transition: 0.5s;
+     font-size: 25px;
+ }
+ .portfolio-wrap a:hover{
+     color: #007bff;
+ }
+ .our-portfolio{
+     padding-bottom: 100px;
+ }
+ .portfolio-wrap{
+     position: relative;
+     margin-top: 30px;
+ }
+ .portfolio-info{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0;
+     border-radius: 10px;
+     transition: 0.5s;
+ }
+.portfolio-info:hover{
+    opacity: 1;
+    background-color: rgba(25, 78, 148, 0.4);
 }
-.portfolio-wrap{
-    position: relative;
-   
+.portfolio-info span{
+    color: white;
 }
-.text{
+ .info{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-/* end */
 
+ }
+ .icon{
+     background-color: #007bff;
+     border-radius: 50%;
+     display: block;
+     margin-top: 10px;
+ }
 /* =====================================
-          start testimonials
+    !!!end our portfolio!!!
 ========================================= */
+/*      !!! start  testimonials!!! */
 .testimonials{
     min-width: 250px;
 background-color: #ecf5ff;
@@ -547,11 +526,8 @@ margin-bottom: 50px;
     border-radius: 50%;
     margin-left: 10px;
    float: left;
-   margin-top: 10px;
-    
-    
+   margin-top: 10px;   
 }
-
 .carousel-item p,.carousel-item h5,.carousel-item span{
 color: black;
 text-align: left;
@@ -560,8 +536,7 @@ margin-left: 150px;
 .carousel-item h5{
     color: black;
     font-size: 20px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 @media only screen and (max-width: 900px) {
     .testimonials{
@@ -571,16 +546,14 @@ margin-left: 150px;
     .carousel-item img{   
         margin-bottom: 20px;
        margin-right: 0;
-       margin-left: 0;
-       
+       margin-left: 0;  
     }
     .wd {
         height: 160px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 120px;
-        
+        width: 120px;   
       }
     .carousel-item p,.carousel-item h5,.carousel-item span{
         margin: 0;
@@ -590,14 +563,13 @@ margin-left: 150px;
     }
   }
 /* ==================================
-          start team section
+          !!!end testimonials!!!
 ====================================== */
-   
+          /* !!!start team!!! */
 .team{
       min-width: 250px;
       padding-top: 70px;
-      padding-bottom: 100px;
-      
+      padding-bottom: 100px;     
 }
 .team p{
       max-width: 600px;
@@ -623,14 +595,12 @@ margin-left: 150px;
      left: 0;
     transition: 0.3s;
      visibility: hidden;
-     padding-top: 20px;
-     
+     padding-top: 20px;   
 }
 .team-text h5{
        font-weight: bold;
        margin-top: 100px;
-       max-width: 100%;
-      
+       max-width: 100%;   
  }
 .team-text span{
        display: block;
@@ -663,21 +633,17 @@ margin-left: 150px;
       background-color: lightblue;
     }
   }
-
-  /* end testimonials */
-
   /* =========================================
-           !!start our clients!!
+           !!!end team!!!
     =========================================== */
-.our-clients{
+/*         !!!start our-clients */
+    .our-clients{
        min-width: 250px;
        padding-top: 50px;
        background-color: #ecf5ff;
        box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);
        padding-bottom: 100px;
 }
-   
-
 .our-clients-header p{
      max-width: 600px;
      font-size: 15px;
@@ -689,9 +655,7 @@ margin-left: 150px;
         background-color: #fff;
         height: 150px;
         display: flex;
-        align-items: center;
-        
-        
+        align-items: center;   
 }
 .our-clients-logo img{
         position: absolute;
@@ -704,7 +668,7 @@ margin-left: 150px;
 .our-clients-logo img:hover{
         width: 70%;
 }
-#widther{
+.widther{
         position:absolute;
         width: 100%;
         height: 100%;
@@ -712,22 +676,19 @@ margin-left: 150px;
         left: 0;
         top: 0;
         border: 0;
-
 }
  .lifter{
         position: relative;
-        
 }
-#widther:hover~img{
+.widther:hover~img{
         width: 70%;
 }
 
-/* end our clients */
-
  /* ==========================================
-       !!!start contact-us!!!
+       !!!end our-clients!!!
  ============================================ */
-.contact{
+       /* !!!start contact!!! */
+ .contact{
        min-width:250px;
        padding-top: 70px;
 }
@@ -736,8 +697,7 @@ margin-left: 150px;
 }
 .contact span{
         font-size: 14px;
-        color: #444;
-        
+        color: #444; 
 }
 .contact i{
         margin: 0 ;
@@ -753,7 +713,6 @@ input{
         height: 40px;
         margin-top: 30px;
         padding-left: 15px;
-        
    }
 input:focus { 
         outline: none;
@@ -803,16 +762,15 @@ textarea{
 .form-header div i{
     margin-right: 10px;
 }
-
 @media only screen and (max-width: 991px) {
     .form-header div{
         margin-top: 30px;
     }
   }
-  /* end contact section */
   /* =========================================
-          !!!start footer!!!
+          !!!end contact!!!
 ========================================= */
+           /* !!!start footer!!! */
 footer{
     min-width: 250px;
     margin-top: 50px;
@@ -820,7 +778,6 @@ footer{
     background-color: #004a99; 
     color: #fff;
     font-size: 14px;
-
 }
 .footer-light-blue{padding-bottom: 40px;}
 .footer-light-blue span{
@@ -899,21 +856,9 @@ footer{
 .footer-dark-blue a{
     text-decoration: none;
     color: #bfddfe;
-}
-
-
+}   
+/* =====================================
+          !!!end footer!!!
+    ====================================== */
+ 
   
-
-     
-    
-    
-    
-    
-   
-   
-   
-
-   
-   
-   
-   

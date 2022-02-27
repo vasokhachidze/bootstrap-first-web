@@ -9,19 +9,12 @@ function navFunction(){
  if(clic){
     navBar.style.visibility="hidden";
  }
-
-  
 }
-
 var cancel=document.getElementById("cancel");
-
 function cancelUl(){
     navBar.style.visibility="hidden";
 }
 // kkkjkkj
-
-
-
 /**
 * Template Name: NewBiz - v4.7.0
 * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
@@ -30,7 +23,6 @@ function cancelUl(){
 */
 (function() {
     "use strict";
-  
     /**
      * Easy selector helper function
      */
@@ -42,19 +34,16 @@ function cancelUl(){
         return document.querySelector(el)
       }
     }
-  
     /**
      * Easy event listener function
      */
     // cons
-  
     /**
      * Easy on scroll event listener 
      */
     const onscroll = (el, listener) => {
       el.addEventListener('scroll', listener)
     }
-  
     /**
      * Navbar links active state on scroll
      */
@@ -74,25 +63,21 @@ function cancelUl(){
     }
     window.addEventListener('load', navbarlinksActive)
     onscroll(document, navbarlinksActive)
-  
     /**
      * Scrolls to an element with header offset
      */
     const scrollto = (el) => {
       let header = select('#header')
       let offset = header.offsetHeight
-  
       if (!header.classList.contains('header-scrolled')) {
         offset -= 20
       }
-  
       let elementPos = select(el).offsetTop
       window.scrollTo({
         top: elementPos - offset,
         behavior: 'smooth'
       })
     }
-  
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
      */
@@ -108,8 +93,6 @@ function cancelUl(){
       window.addEventListener('load', headerScrolled)
       onscroll(document, headerScrolled)
     }
-
-  
   })()
   var check=document.getElementById("check");
   var ck=document.getElementById("ck");
