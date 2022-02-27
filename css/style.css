@@ -7,9 +7,6 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat", sans-serif;
 }
-.none{
-    display: none;
-}
 /* ................. */
 /*start header */
 /* ................... */
@@ -148,8 +145,8 @@ h1,h2,h3,h4,h5,h6{
   }
 .mobile-drop-down{
     position: absolute;
-    left: 120px;
-    top: 195px;
+    /* left: 120px; */
+    /* top: 195px; */
     visibility: hidden;
 }
 .mobile-drop-down:hover{
@@ -157,18 +154,26 @@ h1,h2,h3,h4,h5,h6{
 }
 .mobile-dropdown:hover~.mobile-drop-down{
     visibility: visible;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .mobile-deep-dropdown{
     position: absolute;
-    top: 37px;
-    left: 175px;
+    /* top: 37px;
+    left: 175px; */
     visibility: hidden;    
 }
 .deepdropdown:hover~.mobile-deep-dropdown{
   visibility: visible;
+  position: relative;
+  /* margin-top: -20px; */
+  margin-left: -30px;
+
 }
 .mobile-deep-dropdown:hover{
   visibility: visible;
+  
 }
 /* ----------------------------------------------------
 end header
