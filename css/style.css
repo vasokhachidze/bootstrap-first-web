@@ -22,6 +22,9 @@ h1,h2,h3,h4,h5,h6{
 #header.header-scrolled {
     height: 60px;
 }
+ul{
+    transition: 0.5s;
+}
 .logo{
     width: 160px;
     height: 80px;
@@ -52,7 +55,6 @@ h1,h2,h3,h4,h5,h6{
     color: #004289;
     font-weight: 500;
     white-space: nowrap;
-    transition: 0.3s;
 }
 .navbar a:hover{
     color: #007bff;
@@ -66,7 +68,6 @@ h1,h2,h3,h4,h5,h6{
 .secondUl{
     width: 200px;
     display: block;
- 
     position: absolute;
     background-color: white;
     text-align: left;
@@ -83,7 +84,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .dropdown:hover~.secondUl{
     visibility: visible;
-  
 }
 .secondUl:hover{
     visibility: visible;
@@ -103,16 +103,6 @@ h1,h2,h3,h4,h5,h6{
 .thirdUl:hover{
     visibility: visible;
 }
-@media only screen and (max-width: 990px) {
-    .navbar{
-    width: 0;
-    height: 0;
-    visibility: hidden;
-    }
-    .burger{
-        visibility: visible;    
-    }
-  }
   #deepnav {
       width: 90%;
       height: 600px;
@@ -145,9 +135,8 @@ h1,h2,h3,h4,h5,h6{
   }
 .mobile-drop-down{
     position: absolute;
-    /* left: 120px; */
-    /* top: 195px; */
     visibility: hidden;
+    margin-left: -30px;
 }
 .mobile-drop-down:hover{
     visibility: visible;
@@ -155,25 +144,34 @@ h1,h2,h3,h4,h5,h6{
 .mobile-dropdown:hover~.mobile-drop-down{
     visibility: visible;
     position: relative;
-    margin-top: 5px;
-    margin-left: 5px;
 }
 .mobile-deep-dropdown{
     position: absolute;
-    /* top: 37px;
-    left: 175px; */
     visibility: hidden;    
 }
 .deepdropdown:hover~.mobile-deep-dropdown{
   visibility: visible;
   position: relative;
-  /* margin-top: -20px; */
   margin-left: -30px;
-
 }
 .mobile-deep-dropdown:hover{
-  visibility: visible;
-  
+  visibility: visible;  
+}
+@media only screen and (max-width: 990px) {
+    .navbar{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: none;
+    }
+    .burger{
+        visibility: visible;    
+    }
+  }
+@media only screen and (min-width:990px) {
+    #deepnav{
+        display: none;
+    }
 }
 /* ----------------------------------------------------
 end header
